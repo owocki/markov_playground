@@ -21,7 +21,7 @@ src_dirs = [
     ("src/erowid",1300),
 #    ("src/cover_letter",5),
 ]
-seed_words = ['Obama', 'Christie', 'Bush', "Rubio", 'Obamacare']
+seed_words = ['Obama', 'Christie', 'Bush', "Rubio", 'Obamacare', 'trip', 'drugs', 'heaven', 'hell', 'mushroom','The']
 
 #helper functions
 def ucfirst(sentence):

@@ -2,6 +2,12 @@
 
 A playground for me to do some markov bot things.
 
+# Active Experiments
+
+## TrumpErowid
+
+<a href="https://twitter.com/TrumpErowid"><img src="http://bits.owocki.com/1J0x413R0L14/Image%202016-04-20%20at%2010.02.18%20PM.png"/></a>
+
 # Ideas to train upon
 
 ```

@@ -12,6 +12,9 @@ import os
 import random
 import twitter
 
+#config
+wait_time_between_tweets_in_secs = 60
+num_tweets = 3
 remove_words = ['LAUGHTER', 'CHEERS', 'APPLAUSE', 'AUDIENCE','MUSIC','COOPER','WALLACE','TRUMP']
 src_dirs = [
     ("src/trump",6),
@@ -64,12 +67,12 @@ for word in remove_words:
 mc.generateDatabase(train_text)
 
 #tweet
-while True:
+for x in range(0,num_tweets):
     random.shuffle(seed_words)
     status = (ucfirst(mc.generateStringWithSeed(seed_words[0])) + ".  ")
     try:
         status = api.PostUpdate(status)
     except:
         pass
-    time.sleep(5)
+    time.sleep(wait_time_between_tweets_in_secs)
 

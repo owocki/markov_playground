@@ -11,6 +11,10 @@ A playground for me to do some markov bot things.
 # Ideas to train upon
 
 ```
+movies
+    big lebowski
+recruiter emails
+buzzfeed headlines
 political transcripts
 erowid 
     https://www.erowid.org/archive/psychonaut/index.htm

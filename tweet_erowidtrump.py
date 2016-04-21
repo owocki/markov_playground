@@ -35,6 +35,7 @@ def validate_tweet(status):
     num_words = len(status.split(" ")) + 1
     if num_words < 3:
         return False;
+    return True
 
 #setup 
 mc = MarkovChain("./markov")

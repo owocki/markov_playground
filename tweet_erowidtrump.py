@@ -70,6 +70,8 @@ mc.generateDatabase(train_text)
 for x in range(0,num_tweets):
     random.shuffle(seed_words)
     status = (ucfirst(mc.generateStringWithSeed(seed_words[0])) + ".  ")
+    if not validate_tweet(status):
+        continue;
     try:
         status = api.PostUpdate(status)
     except:

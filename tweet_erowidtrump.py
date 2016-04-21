@@ -14,7 +14,7 @@ import twitter
 
 #config
 wait_time_between_tweets_in_secs = 60
-num_tweets = 3
+num_tweets = 1
 remove_words = ['LAUGHTER', 'CHEERS', 'APPLAUSE', 'AUDIENCE','MUSIC','COOPER','WALLACE','TRUMP']
 src_dirs = [
     ("src/trump",6),
